@@ -137,7 +137,7 @@ class Server:
             idx = max(iso.rfind("+"), iso.rfind("-"))
             location = f'{iso[:idx]},{iso[idx:]}'
             self.log(f'Communicating witg Google API...')
-            async with session.get(f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={location}&radius={radius}&key=AIzaSyAjb4Mz_lVU6Vk2IETNzpVvSDW2UtwZYNg') as response:
+            async with session.get(f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={location}&radius={radius}&key=[API KEY]') as response:
                 res = await response.json(loads=json.loads)
             num = len(res["results"])
             self.log(f'Located {num} places. Upper bound is {bound}')
