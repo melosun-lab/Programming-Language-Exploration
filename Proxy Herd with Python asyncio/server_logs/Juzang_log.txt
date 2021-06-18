@@ -1,0 +1,839 @@
+2021-03-03 18:44:48,319        Running server Juzang...
+2021-03-03 18:44:48,320        Start server Juzang on ('127.0.0.1', 15647)
+2021-03-03 18:44:49,666        Receiving message from ('127.0.0.1', 59560) : AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,666        Receiving broadcast of client...
+2021-03-03 18:44:49,667        Connecting to server Riley
+2021-03-03 18:44:49,667        Broadcasting message to server Riley: AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,667        Closing connection with server Riley
+2021-03-03 18:44:49,668        Connecting to server Bernard
+2021-03-03 18:44:49,668        Broadcasting message to server Bernard: AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,668        Closing connection with server Bernard
+2021-03-03 18:44:49,669        Connecting to server Campbell
+2021-03-03 18:44:49,669        Broadcasting message to server Campbell: AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,669        Closing connection with server Campbell
+2021-03-03 18:44:49,669        Disconnecting with client ('127.0.0.1', 59560)
+2021-03-03 18:44:49,670        Receiving message from ('127.0.0.1', 59568) : AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,670        Duplicate broadcast of client.
+2021-03-03 18:44:49,670        Disconnecting with client ('127.0.0.1', 59568)
+2021-03-03 18:44:49,671        Receiving message from ('127.0.0.1', 59569) : AT Riley +0.001493215560913086 client +34.06893-118.445127 1614825889.6627169
+2021-03-03 18:44:49,671        Duplicate broadcast of client.
+2021-03-03 18:44:49,671        Disconnecting with client ('127.0.0.1', 59569)
+2021-03-03 18:44:50,906        Receiving message from ('127.0.0.1', 59578) : AT Campbell +0.0017380714416503906 client_0 +34.06893-118.445127 1614825890.903383
+2021-03-03 18:44:50,906        Receiving broadcast of client_0...
+2021-03-03 18:44:50,907        ERROR: Failed to broadcast server Riley
+2021-03-03 18:44:50,907        Connecting to server Bernard
+2021-03-03 18:44:50,908        Broadcasting message to server Bernard: AT Campbell +0.0017380714416503906 client_0 +34.06893-118.445127 1614825890.903383
+2021-03-03 18:44:50,908        Closing connection with server Bernard
+2021-03-03 18:44:50,909        Connecting to server Campbell
+2021-03-03 18:44:50,909        Broadcasting message to server Campbell: AT Campbell +0.0017380714416503906 client_0 +34.06893-118.445127 1614825890.903383
+2021-03-03 18:44:50,909        Closing connection with server Campbell
+2021-03-03 18:44:50,909        Disconnecting with client ('127.0.0.1', 59578)
+2021-03-03 18:44:50,910        Receiving message from ('127.0.0.1', 59585) : AT Campbell +0.0017380714416503906 client_0 +34.06893-118.445127 1614825890.903383
+2021-03-03 18:44:50,910        Duplicate broadcast of client_0.
+2021-03-03 18:44:50,910        Disconnecting with client ('127.0.0.1', 59585)
+2021-03-03 18:44:51,337        Receiving message from ('127.0.0.1', 59590) : WHATSAT client_0 10 5
+
+2021-03-03 18:44:51,337        Communicating witg Google API...
+2021-03-03 18:44:51,555        Located 3 places. Upper bound is 5
+2021-03-03 18:44:51,556        Sending feedback to ('127.0.0.1', 59590): AT Campbell +0.0017380714416503906 client_0 +34.06893-118.445127 1614825890.903383
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwKxNVH_WprGzhq-S05yWjTcLuLWzncwokAARJ5yMPpEdZKWRTFCnED8ReLr0biUVQF7PQcVAGPiBBq6iiqqnRmhZkqxbLhe8ylbEke1KClTXEr3DN5dRgdnSjcj8iVC5oISAp8x9kGJIH4bYCqkw8Hb8xOlZAgc1FxcIFz0T2cE3E3D",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwLNMEjWS3v2gsRgIL3q6aLbUgcWOfXxvTcgorXYfCRjTNK06HJCODrKJxEifBOjB-4M8eHgLwEsoBZHVMuWeKb7-_ulu4w67-Icy8fzDg6rejQRBWoDu7wKNnbwFUImQSJzlSiH0gDqTdq-7_93Nw7-7kKfWdnu76tMQcr-_L7v5FK3",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:44:51,556        Disconnecting with client ('127.0.0.1', 59590)
+2021-03-03 18:44:53,219        Running server Juzang...
+2021-03-03 18:44:53,220        Start server Juzang on ('127.0.0.1', 15647)
+2021-03-03 18:44:53,909        Receiving message from ('127.0.0.1', 59611) : AT Bernard +0.0016858577728271484 client_0 +34.06893-118.445127 1614825893.904726
+2021-03-03 18:44:53,909        Receiving broadcast of client_0...
+2021-03-03 18:44:53,909        ERROR: Failed to broadcast server Riley
+2021-03-03 18:44:53,910        Connecting to server Bernard
+2021-03-03 18:44:53,910        Broadcasting message to server Bernard: AT Bernard +0.0016858577728271484 client_0 +34.06893-118.445127 1614825893.904726
+2021-03-03 18:44:53,910        Closing connection with server Bernard
+2021-03-03 18:44:53,911        ERROR: Failed to broadcast server Campbell
+2021-03-03 18:44:53,911        Disconnecting with client ('127.0.0.1', 59611)
+2021-03-03 18:44:54,345        Receiving message from ('127.0.0.1', 59622) : WHATSAT client_0 10 5
+
+2021-03-03 18:44:54,345        Communicating witg Google API...
+2021-03-03 18:44:54,561        Located 3 places. Upper bound is 5
+2021-03-03 18:44:54,562        Sending feedback to ('127.0.0.1', 59622): AT Bernard +0.0016858577728271484 client_0 +34.06893-118.445127 1614825893.904726
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwKAekf26ryE_zuRT569XQxQRdmydMmxW5pHpVFIM6v45fSiCFqihvqXUIC9qYSyxnnFXF7Vp3x0TcHq-S5o_Y4UapYAItP6yT-mk30Xa-711sQSjjgxzX0n5IfLF9SAMZts7S_n5iOv0sjp0lpg-xFBp3eRMo6vHdBa7ui9xenoMIX3",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwINA_NjeIQO_Y5oUIuHJ1uFhC8u7skqmFILCGFbF9191IP0AnIbXCm_8_-dPwNx2wMlmONxhnkDa0X2YSpfSgv9cN-B7zMgPNiNzxrC4Fii-Q0YLpiD1j1ye_KETLHivvfVxTqd4uemPF46dPEyRQzfXf5fu17D9Z-sPnrumgK9HR6i",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:44:54,562        Disconnecting with client ('127.0.0.1', 59622)
+2021-03-03 18:44:55,433        Receiving message from ('127.0.0.1', 59625) : AT Campbell +0.0017437934875488281 client_0 +34.06893-118.445127 1614825895.43002
+2021-03-03 18:44:55,433        Receiving broadcast of client_0...
+2021-03-03 18:44:55,433        ERROR: Failed to broadcast server Riley
+2021-03-03 18:44:55,434        ERROR: Failed to broadcast server Bernard
+2021-03-03 18:44:55,434        Connecting to server Campbell
+2021-03-03 18:44:55,435        Broadcasting message to server Campbell: AT Campbell +0.0017437934875488281 client_0 +34.06893-118.445127 1614825895.43002
+2021-03-03 18:44:55,435        Closing connection with server Campbell
+2021-03-03 18:44:55,435        Disconnecting with client ('127.0.0.1', 59625)
+2021-03-03 18:44:55,835        Receiving message from ('127.0.0.1', 59637) : WHATSAT client_0 10 5
+
+2021-03-03 18:44:55,835        Communicating witg Google API...
+2021-03-03 18:44:56,077        Located 3 places. Upper bound is 5
+2021-03-03 18:44:56,078        Sending feedback to ('127.0.0.1', 59637): AT Campbell +0.0017437934875488281 client_0 +34.06893-118.445127 1614825895.43002
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwL6FkKoKRCC_nQYgxBKab808sLDnOS44ouhIBSPIkZjdRQ9TgvpISv64eMlo19hbRgTEMbvbF7gvsXrSCwuPK2aWY45jyo6vyxH8RN3FtuD8N_4b8RRaZBTZQi_gmexb_1hGDHzN_uk4HZ9Dfvp8bfRjZgRaDfvHqcQ7oCxThALdffT",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwIgppcD4VoZn0mpytu493z72KeGiW64HFEvauJ5NTg6FkOJp_1uMKUUoKrtcjospY5S0f95PADkIAhV271U1LmZfQhrmbFfuzOYIm_36mzQJf8kwdwzckzgVnFnhKuAu_mP1fU69kGOVxG-QRc7yJ9-HIvv5C1ZFpXEcGqW1sHYdjfn",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:44:56,078        Disconnecting with client ('127.0.0.1', 59637)
+2021-03-03 18:44:58,933        Running server Juzang...
+2021-03-03 18:44:58,934        Start server Juzang on ('127.0.0.1', 15647)
+2021-03-03 18:44:59,625        Receiving message from ('127.0.0.1', 59652) : AT Bernard +0.0012538433074951172 client_1 +34.06893-118.445127 1614825899.6228852
+2021-03-03 18:44:59,626        Receiving broadcast of client_1...
+2021-03-03 18:44:59,626        Connecting to server Riley
+2021-03-03 18:44:59,626        Broadcasting message to server Riley: AT Bernard +0.0012538433074951172 client_1 +34.06893-118.445127 1614825899.6228852
+2021-03-03 18:44:59,627        Closing connection with server Riley
+2021-03-03 18:44:59,627        Connecting to server Bernard
+2021-03-03 18:44:59,627        Broadcasting message to server Bernard: AT Bernard +0.0012538433074951172 client_1 +34.06893-118.445127 1614825899.6228852
+2021-03-03 18:44:59,628        Closing connection with server Bernard
+2021-03-03 18:44:59,628        ERROR: Failed to broadcast server Campbell
+2021-03-03 18:44:59,628        Disconnecting with client ('127.0.0.1', 59652)
+2021-03-03 18:44:59,629        Receiving message from ('127.0.0.1', 59658) : AT Bernard +0.0012538433074951172 client_1 +34.06893-118.445127 1614825899.6228852
+2021-03-03 18:44:59,629        Duplicate broadcast of client_1.
+2021-03-03 18:44:59,629        Disconnecting with client ('127.0.0.1', 59658)
+2021-03-03 18:45:00,144        Receiving message from ('127.0.0.1', 59663) : WHATSAT client_1 10 5
+
+2021-03-03 18:45:00,145        Communicating witg Google API...
+2021-03-03 18:45:00,347        Located 3 places. Upper bound is 5
+2021-03-03 18:45:00,348        Sending feedback to ('127.0.0.1', 59663): AT Bernard +0.0012538433074951172 client_1 +34.06893-118.445127 1614825899.6228852
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwK3uOQVR_j6NFbGaXN7wEREktjvziUstSIAP18RCkGv3HI2FiQCpTXGMVaGoJC18ZEHcotJ8Wdq65rEyyPKqj9EjNRS5QeNyd719csk-5AvmvW9D4JbSwIwlCzvYxKy0K-85HKQYuN22ilgQ29TA0LiNkWj2jGFvadG4zvQi7_dwVQ7",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwKmBWtUD6LKV5RnaQojpRHmQaBvFlHZQPgahk0dZMJ_ytvGFACOnVX0pRL1sTobNpmbb5YsFm-D7vd3cVn2_gLGmIZufDYa2_PDxOh0zQi6USVjX1lx76-v78u00RCPUnJyByuBothf_UtPRMbjtFu2QEBgfUJ5FLisyFYCL3KeOjhw",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:45:00,348        Disconnecting with client ('127.0.0.1', 59663)
+2021-03-03 18:45:01,213        Receiving message from ('127.0.0.1', 59667) : AT Campbell +0.002001047134399414 client_1 +34.06893-118.445127 1614825901.21043
+2021-03-03 18:45:01,214        Receiving broadcast of client_1...
+2021-03-03 18:45:01,214        Connecting to server Riley
+2021-03-03 18:45:01,214        Broadcasting message to server Riley: AT Campbell +0.002001047134399414 client_1 +34.06893-118.445127 1614825901.21043
+2021-03-03 18:45:01,215        Closing connection with server Riley
+2021-03-03 18:45:01,215        ERROR: Failed to broadcast server Bernard
+2021-03-03 18:45:01,217        Connecting to server Campbell
+2021-03-03 18:45:01,217        Broadcasting message to server Campbell: AT Campbell +0.002001047134399414 client_1 +34.06893-118.445127 1614825901.21043
+2021-03-03 18:45:01,217        Closing connection with server Campbell
+2021-03-03 18:45:01,217        Disconnecting with client ('127.0.0.1', 59667)
+2021-03-03 18:45:01,217        Receiving message from ('127.0.0.1', 59673) : AT Campbell +0.002001047134399414 client_1 +34.06893-118.445127 1614825901.21043
+2021-03-03 18:45:01,218        Duplicate broadcast of client_1.
+2021-03-03 18:45:01,218        Disconnecting with client ('127.0.0.1', 59673)
+2021-03-03 18:45:01,621        Receiving message from ('127.0.0.1', 59678) : WHATSAT client_1 10 5
+
+2021-03-03 18:45:01,621        Communicating witg Google API...
+2021-03-03 18:45:01,805        Located 3 places. Upper bound is 5
+2021-03-03 18:45:01,806        Sending feedback to ('127.0.0.1', 59678): AT Campbell +0.002001047134399414 client_1 +34.06893-118.445127 1614825901.21043
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwI1Or6Lw-ELutagnh5r1d6rB1b8_5b-6GneqBFnAMe4IQpvV10xne-Bxa3i1wSh8uiKj2gfLfJ7Px7taT09QwX7VOW8ahOLbhcdQlKP_439KuArr8tSzK7XZh7vo51mtP8AaIVBEJ6EF3ECbltsi5BcdkqtKoM1EC3LjlGjrmNsl4YG",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwJsbcmnlN2A2O00IQB3Syq0ewuz065m8urvueeSpbSjgQJPsXVfdAuTMMDO9xkxucP1nE0SsYRvNCULeK_Q7zgV-41WalCY3SpVbrQ0A3Th4-QR_WqydxGV0CAXcOYCT0N-FGPe2HMTUvPAnzfYl2tJ538AAzegmCW24A0_HrwQGOND",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:45:01,806        Disconnecting with client ('127.0.0.1', 59678)
+2021-03-03 18:45:06,297        Running server Juzang...
+2021-03-03 18:45:06,298        Start server Juzang on ('127.0.0.1', 15647)
+2021-03-03 18:45:07,345        Receiving message from ('127.0.0.1', 59709) : AT Riley +0.0009000301361083984 client_3 +34.06893-118.445127 1614825907.342479
+2021-03-03 18:45:07,345        Receiving broadcast of client_3...
+2021-03-03 18:45:07,345        Connecting to server Riley
+2021-03-03 18:45:07,345        Broadcasting message to server Riley: AT Riley +0.0009000301361083984 client_3 +34.06893-118.445127 1614825907.342479
+2021-03-03 18:45:07,346        Closing connection with server Riley
+2021-03-03 18:45:07,346        ERROR: Failed to broadcast server Bernard
+2021-03-03 18:45:07,346        ERROR: Failed to broadcast server Campbell
+2021-03-03 18:45:07,346        Disconnecting with client ('127.0.0.1', 59709)
+2021-03-03 18:45:07,764        Receiving message from ('127.0.0.1', 59719) : WHATSAT client_3 10 5
+
+2021-03-03 18:45:07,764        Communicating witg Google API...
+2021-03-03 18:45:07,946        Located 3 places. Upper bound is 5
+2021-03-03 18:45:07,947        Sending feedback to ('127.0.0.1', 59719): AT Riley +0.0009000301361083984 client_3 +34.06893-118.445127 1614825907.342479
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.06888734586305,
+                    "lng": -118.4450168552283
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0702312302915,
+                        "lng": -118.4436835197085
+                    },
+                    "southwest": {
+                        "lat": 34.0675332697085,
+                        "lng": -118.4463814802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Westwood Plaza",
+            "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+            "scope": "GOOGLE",
+            "types": [
+                "route"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.068921,
+                    "lng": -118.4451811
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0828575,
+                        "lng": -118.42990995
+                    },
+                    "southwest": {
+                        "lat": 34.0575047,
+                        "lng": -118.46313815
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+            "name": "University of California, Los Angeles",
+            "photos": [
+                {
+                    "height": 2875,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115979970008848604123\">Alana Calvin</a>"
+                    ],
+                    "photo_reference": "ATtYBwL22qKYCH7MnqEpm8LcsqVL0myNHAMaHfLP2UB2UAYJnuGr9OekpRo54xP4_Habgkc8FKOOpKNJi3gF9_Y3X7esOgGxpykXS_pnDOPQEYilozOPyfa4jBmmALlg4oL6e47qjPMtMsQErm4-JnwhHYjOu0cVJdjGcIPvFfnT0gPHmLKt",
+                    "width": 4791
+                }
+            ],
+            "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "plus_code": {
+                "compound_code": "3H93+HW Los Angeles, CA, USA",
+                "global_code": "85633H93+HW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+            "scope": "GOOGLE",
+            "types": [
+                "university",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1850,
+            "vicinity": "Los Angeles"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.33730608759191,
+                        "lng": -118.155289077463
+                    },
+                    "southwest": {
+                        "lat": 33.70365193147634,
+                        "lng": -118.6681759484859
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 1840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101570755550212829756\">Zsoldos Emil</a>"
+                    ],
+                    "photo_reference": "ATtYBwLNnAIBpqGlz-OdHlpeM6bYDE972CyJsnSJwY2ylEjDekyYO5NUmi5rrxOqny0S0JU6q7MtQQbG6kBG3gQ0ilV6J4ludpYi5QuQh6w70uO83q2Z-uhIt0zl4jFgBXiila4Vgx65n7nA6iS83XA8J-DthhHRMe-ommCZ1iLn8DG032hT",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+
+2021-03-03 18:45:07,947        Disconnecting with client ('127.0.0.1', 59719)
